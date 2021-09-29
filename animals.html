@@ -182,26 +182,20 @@
         </div>
     </div>
     <br>
-    <div class="container">
-        <h2>DropDown</h2>
-        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-            <button type="button" class="btn btn-primary">1</button>
-            <button type="button" class="btn btn-primary">2</button>
-          
-            <div class="btn-group" role="group">
-              <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                <li><a class="dropdown-item" href="Plane.html">Plane</a></li>
-                <li><a class="dropdown-item" href="Train.html">Train</a></li>
-              </ul>
-            </div>
-        </div> 
-    </div>
     <br>
-
-    <form>
+        <h2>DropDown</h2>
+        <div class="dropdown">
+            <button class="btn dropdown-toggle" style="background-color: rgb(230, 151, 138);" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                DropDown
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="Plane.html">Plane</a>
+                <a class="dropdown-item" href="train.html">Train</a>
+            </div>
+        </div>
+            <br>
+     <form>
         <div class="form-group">
             <label for="exampleInputEmail1" class="form-label">Email Id</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
